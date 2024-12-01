@@ -5,7 +5,10 @@
       "target": "es6",
       "moduleResolution": "node",
       "sourceMap": true,
-      "outDir": "dist"
+      "outDir": "dist",
+      "strict": true,
+      "noUncheckedIndexedAccess": true,
     },
-    "lib": ["es2015"]
+    "lib": ["es5", "es6"],
+    "include": ["src/**/*"],
   }
